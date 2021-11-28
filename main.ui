@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>838</width>
+    <width>881</width>
     <height>327</height>
    </rect>
   </property>
@@ -17,19 +17,6 @@
    <string notr="true">background-color: rgb(182, 182, 182);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QTableWidget" name="tableWidget">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>10</y>
-      <width>821</width>
-      <height>261</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(245, 245, 245);</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
@@ -51,6 +38,19 @@ background-color: rgb(225, 225, 225);border: 2px solid rgb(1, 1, 1);</string>
     </property>
     <property name="text">
      <string>Загрузить</string>
+    </property>
+   </widget>
+   <widget class="QTableView" name="view">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>11</y>
+      <width>831</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(243, 243, 243);</string>
     </property>
    </widget>
   </widget>
